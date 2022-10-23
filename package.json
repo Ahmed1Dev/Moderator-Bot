@@ -1,0 +1,50 @@
+{
+  "name": "moderator-bot",
+  "version": "1.5.0",
+  "description": "The Best Moderator Bot Verison 1 .",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahmed1dev/moderator-bot"
+  },
+  "keywords": [
+    "discord-js",
+    "discord-bot"
+  ],
+  "author": "AhmedLr.#0064",
+  "license": "Apache License",
+  "engines": {
+    "node": "16.x"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.8.0",
+    "@distube/spotify": "^1.2.1",
+    "ascii-table": "^0.0.9",
+    "chart.js": "^3.8.0",
+    "chartjs-node-canvas": "^4.1.6",
+    "chartjs-plugin-gradient": "^0.5.0",
+    "discord.js": "^13.8.0",
+    "distube": "^3.3.4",
+    "dotenv": "^16.0.1",
+    "ffmpeg-static": "^4.4.1",
+    "fs": "^0.0.1-security",
+    "genius-lyrics": "^4.3.8",
+    "glob": "^7.2.3",
+    "libsodium-wrappers": "^0.7.10",
+    "moment": "^2.29.4",
+    "mongodb": "^3.7.3",
+    "mongoose": "^6.4.3",
+    "ms": "^2.1.3",
+    "nekos.life": "^3.0.0",
+    "node-fetch": "^2.6.7",
+    "random-puppy": "^1.1.0"
+  },
+  "devDependencies": {
+    "chalk": "^4.1.2",
+    "nodemon": "^2.0.16"
+  }
+}
